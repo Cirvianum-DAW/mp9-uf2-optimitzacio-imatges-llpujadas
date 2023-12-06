@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Entre Pins</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="../../resources/img/logo-pins.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar de la pàgina -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../index.html" class="flex items-center">
+                <img src="../../resources/img/logo-pins.svg" class="h-8 mr-3"
+                    alt="Logotip del restaurant amb tres pins" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Restaurant Entre
+                    Pins</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="../index.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inici</a>
+                    </li>
+                    <li>
+                        <a href="../plats/plats.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Plats</a>
+                    </li>
+                    <li>
+                        <a href="../nosaltres/nosaltres.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nosaltres</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Informació</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fi de navbar de la pàgina -->
+
+    <!-- Títol de la pàgina -->
+    <div class="relative">
+        <img class="w-full h-96 object-cover sm:h-auto" src="../../resources/img/bosc-titols.jpg"
+            alt="Imatge del bosc del restaurant en petit format">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+            <h1 class="flex flex-nowrap text-center text-6xl sm:text-6xl font-[Koulen]">CREDITS</h1>
+            <hr>
+        </div>
+    </div>
+    <!-- Fi de títol de la pàgina -->
+
+    <!-- Imatges de capçalera de la pàgina -->
+    <div class="flex">
+        <div
+            class="flex flex-wrap lg:w-full items-center justify-center lg:gap-96 gap-10 m-10 bg-slate-200 p-10 rounded-2xl">
+            <img class="relative rounded-full w-44 h-44" src="../../resources/img/info-rest-1.jpg"
+                alt="Imatge d'un dels plats del restaurant a la cuina">
+            <img class="relative rounded-full w-44 h-44" src="../../resources/img/info-rest-2.jpg"
+                alt="Imatge d'un dels plats del restaurant a la cuina">
+            <img class="relative rounded-full w-44 h-44" src="../../resources/img/info-rest-3.jpg"
+                alt="Imatge d'un dels plats del restaurant a la cuina">
+        </div>
+    </div>
+    <!-- Fi imatges de capçalera de la pàgina -->
+
+    <!-- Contingut de la pàgina: Informació sobre les imatges de la web -->
+    <div class="flex flex-wrap mx-10 mb-14">
+        <div class="relative md:w-5/6 rounded-2xl bg-gradient-to-b lg:bg-gradient-to-r from-slate-100">
+            <h1 class="relative text-3xl mt-5 ml-5">FOTOGRAFIES</h1>
+            <div class="ml-5 mr-5 h-[0.1%] lg:h-[0.1%] bg-black"></div>
+            <p class="relative text-justify mt-3 ml-5 mr-5 font-[Open+Sans] leading-loose mb-2 lg:mb-2">
+                Les fotografies utilitzades en aquesta pàgina han estat majoritàriament extretes de <a
+                    href="https://www.freepik.com/" class="text-blue-500 hover:underline">Freepik</a>.
+                <br>
+                La imatge de portada i que apareix als títols de les diferents pàgines, així com la imatge pop a la
+                gallega, son de:
+                <a href="https://www.freepik.es/foto-gratis/hermosa-foto-bosque-altos-arboles-verdes_10978866.htm#&position=0&from_view=search&track=ais"
+                    class="text-blue-500 hover:underline">Imagen de wirestock</a> en Freepik
+            <div class="flex my-3 ml-5 gap-5">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/bosc_portada.jpg"
+                    alt="Imatge del bosc de la portada de la web del restaurant">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/pop_gallega.jpg"
+                    alt="Imatge del plat del pop a la gallega del restaurant">
+            </div>
+            <p class="ml-5">
+                Algunes de las imatges son de l'autor: <a href="http://www.freepik.com"
+                    class="text-blue-500 hover:underline">Designed by brgfx / Freepik</a>
+            </p>
+            <br>
+            <p class="ml-5">La imatge dels peus de porc que apareix a la pàgina "plats/plats.html" ha estat extreta de
+                la següent pàgina web: <a href="https://www.carnalabrasagirona.com/pies-de-cerdo-a-la-brasa/"
+                    class="text-blue-500 hover:underline">Ver página sobre recetas con pies de cerdo a la brasa</a>
+            </p>
+            <br>
+            <p class="ml-5">La següent imatge pertany a:
+                <a href="https://www.freepik.es/foto-gratis/cocinero-vista-frontal-preparando-comida-dentro-cocina-cocina-comida-fry-cook_10037970.htm#query=chef&position=1&from_view=search&track=sph"
+                    class="text-blue-500 hover:underline">Imagen de KamranAydinov</a>
+            </p>
+            <div class="flex my-3 ml-5 gap-5">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/info-rest-1.jpg"
+                    alt="Imatge d'un dels xefs del restaurant preparant un plat">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/info-rest-2.jpg"
+                    alt="Imatge d'un dels xefs del restaurant preparant un plat">
+            </div>
+            <p class="ml-5">
+                Les següents imatges pertanyen a: <a
+                    href="https://www.freepik.es/foto-gratis/chef-preparando-plato-gourmet-vista-frontal_7845648.htm#&position=0&from_view=search&track=ais"
+                    class="text-blue-500 hover:underline">Freepik</a>
+            </p>
+            <div class="flex my-3 ml-5 gap-5 mb-5">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/info-rest-3.jpg"
+                    alt="Imatge d'un dels xefs del restaurant preparant un plat">
+                <img class="block rounded-lg w-20 h-20" src="../../resources/img/chefs-nosaltres.png"
+                    alt="Imatge de tres xefs del restaurant treballant a la cuina">
+            </div>
+            </p>
+
+        </div>
+        <div class="flex flex-grow rounded-2xl justify-center items-center">
+            <img class="display-block justify-self-center rounded-full w-52 h-52 mt-10"
+                src="../../resources/img/info-rest-1.jpg" alt="Imatge d'un dels xefs del restaurant preparant un plat">
+        </div>
+    </div>
+    <!-- Fi de contingut de la pàgina: Informació sobre les imatges de la web -->
+
+    <!-- Contingut de la pàgina: Informació sobre el vídeo de la web -->
+    <div class="flex flex-wrap mx-10 mb-14">
+        <div class="relative md:w-5/6 rounded-2xl bg-gradient-to-b lg:bg-gradient-to-r from-slate-100">
+            <h1 class="relative text-3xl mt-5 ml-5">VÍDEO</h1>
+            <div class="ml-5 mr-5 h-[0.1%] bg-black"></div>
+            <p class="relative text-justify mt-3 ml-5 mr-5 font-[Open+Sans] leading-loose mb-10 lg:mb-5">
+                El vídeo utilitzat en aquesta pàgina web, a l'apartat "nosaltres/nosaltres.html" s'ha extret de la
+                pàgina web de vecteezy, té llicència gratïta d'utilització i requereix atribució. L'autor de la
+                publicació del vídeo en aquesta pàgina web és: Geovany Barreto Santa.
+                <br>
+                Aquesta és la següent: <a
+                    href="https://es.vecteezy.com/video/1958955-vista-desde-arriba-de-un-espeso-bosque-verde"
+                    class="text-blue-500 hover:underline">vista
+                    superior de un espeso bosque verde Vídeos de stocko por Vecteezy</a>
+            </p>
+        </div>
+        <div class="flex flex-grow rounded-2xl justify-center items-center">
+            <img class="display-block justify-self-center rounded-full w-52 h-52 mt-10"
+                src="../../resources/img/img-credits-2.jpg" alt="Imatge dels peus de porc servits al restaurant">
+        </div>
+    </div>
+    <!-- Fi de contingut de la pàgina: Informació sobre el vídeo de la web -->
+
+    <!-- Contingut de la pàgina: Informació sobre les fonts i tipografies de la web -->
+    <div class="flex flex-wrap mx-10 mb-14">
+        <div class="relative md:w-5/6 rounded-2xl bg-gradient-to-b lg:bg-gradient-to-r from-slate-100">
+            <h1 class="relative text-3xl mt-5 ml-5">TIPOGRAFIES</h1>
+            <div class="ml-5 mr-5 h-[0.1%] bg-black"></div>
+            <p class="relative text-justify mt-3 ml-5 mr-5 font-[Open+Sans] leading-loose mb-10 lg:mb-5">
+                La principal tipografia de lletra utilitzada arreu de la pàgina web és "Koulen", i ha estat extreta de
+                "Google Fonts".
+                <br>
+                Una de les altres tipografies utilitzades és "Open Sans", la qual també ha estat extreta de "Google
+                Fonts".
+                <br>
+                Ambdues tenen llicències d'utilització gratuïtes.
+            </p>
+        </div>
+        <div class="flex flex-grow rounded-2xl justify-center items-center">
+            <img class="display-block justify-self-center rounded-full w-52 h-52 mt-10"
+                src="../../resources/img/img-credits-3.png" alt="Imatge de la paella muntanyenca servida al restaurant">
+        </div>
+    </div>
+    <!-- Fi de contingut de la pàgina: Informació sobre les fonts i tipografies de la web -->
+
+    <!-- Footer -->
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"><a href="/"
+                    class="hover:underline">Restaurant Entre Pins</a> © 2023. Tots els drets reservats.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="../index.html" class="hover:underline me-4 md:me-6">Inici</a>
+                </li>
+                <li>
+                    <a href="../plats/plats.html" class="hover:underline me-4 md:me-6">Plats</a>
+                </li>
+                <li>
+                    <a href="../nosaltres/nosaltres.html" class="hover:underline me-4 md:me-6">Nosaltres</a>
+                </li>
+                <li>
+                    <a href="../informacio/informacio.html" class="hover:underline me-4 md:me-6">Informació</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Fi de Footer -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+
+</html>

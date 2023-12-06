@@ -1,0 +1,8 @@
+[IMG]:
+    - [INDEX.html]:
+        - Plat pasta (plat_pasta_portada.jpg): https://www.freepik.es/foto-gratis/penne-pasta-salsa-tomate-pollo-tomates-mesa-madera_7677638.htm#query=plato%20comida&position=7&from_view=search&track=ais&uuid=027caf71-2347-4a8c-b4de-0fccfc1f8f64
+
+    - [PLATS.HTML]:
+        - Paella muntanyenca: 
+        - Peus de porc a la brasa (responsive) (res_peus_porc_brasa): https://www.google.com/url?sa=i&url=https%3A%2F%2Fcanpistraques.com%2Fes%2Fcomprar-producto%2Fmanitas-de-cerdo-cocidas-con-hierbas-2-unidades%2F&psig=AOvVaw1jtPty5NKdSfN0sMTd2x9Q&ust=1701983587064000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCOCv3o3d-4IDFQAAAAAdAAAAABAR
+        - Pop a la gallega (responsive) (resp_pop_gallega): https://www.google.com/url?sa=i&url=https%3A%2F%2Ftreurer.com%2Frecetas-aceite-virgen-extra%2Fpulpo-a-la-gallega-dieta-mediterranea%2F&psig=AOvVaw2gVOtbHNAPJjNYbihF3SXi&ust=1701984119039000&source=images&cd=vfe&opi=89978449&ved=0CBEQjhxqFwoTCLj8m43f-4IDFQAAAAAdAAAAABAR
