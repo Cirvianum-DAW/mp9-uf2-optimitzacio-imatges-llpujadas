@@ -8,6 +8,11 @@
 - Use different tools and techniques for optimizing multimedia resources.
 - Learn about image-related and integrated tools in web development environments.
 
+## Links
+- Github Repository Link: [Access Repository URL](https://github.com/Cirvianum-DAW/mp9-uf2-optimitzacio-imatges-llpujadas)
+- Link to the website: [Access the restaurant website](https://entrepins-uf2-llpujadas.netlify.app)
+- Link to project documentation (also available in the "Documentation" folder of the project): [Access the documentation](https://drive.google.com/file/d/12uGdfTmy5C08ZtfpGmDaBFcwvyhUcGrn/view?usp=sharing)
+
 ## Background
 
 This last days we've been seeing different tools and techniques for optimizing multimedia resources. We've seen how to change the format of an image, how to reduce its size previous to its use in a web.
