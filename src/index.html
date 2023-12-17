@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Entre Pins</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/x-icon" href="../resources/img/logo-pins.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Koulen" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Container amb imatge de fons -->
+  <div class="min-h-screen relative">
+    <picture>
+      <source class="w-full object-cover h-screen rounded-t-lg" media="(max-width: 799px)"
+        srcset="../resources/img/crop_bosc_portada.webp" alt="Imatge de portada de la web amb un bosc fosc">
+      <source class="w-full object-cover h-screen rounded-t-lg" media="(min-width: 800px)"
+        srcset="../resources/img/bosc_portada.avif" alt="Imatge de portada de la web amb un bosc fosc">
+      <img class="w-full object-cover h-screen rounded-t-lg" src="../resources/img/bosc_portada.avif"
+        alt="Imatge de portada de la web amb un bosc fosc">
+    </picture>
+    <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+      <!-- Text sobreposat -->
+      <div class="text-white text-center">
+        <h1 class="text-5xl font-bold font-[Koulen] tracking-wide">ENTRE PINS</h1>
+        <br>
+        <p class="text-3xl">ENDINSA'T A L'AVENTURA GASTRONÒMICA</p>
+      </div>
+      <!-- Fi de text sobreposat -->
+    </div>
+  </div>
+  <!-- Fi de container amb imatge de fons -->
+
+  <!-- Fletxa scroll cap a la part inferior de la pàgina -->
+  <a href="#serveis" class="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-10 w-10">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+    </svg>
+  </a>
+  <!-- Fi de fletxa scroll cap a la part inferior de la pàgina -->
+
+  <!-- Cards amb els diferents serveis del restaurant -->
+  <div id="serveis">
+    <div class="w-full h-screen relative">
+      <div class="w-full h-full left-0 top-0 absolute bg-gray-200"></div>
+      <div
+        class="w-full h-1/4 top-1/4 absolute text-center text-neutral-600 text-4xl lg:text-5xl font-normal font-['Koulen']">
+        ELS NOSTRES SERVEIS
+      </div>
+      <div
+        class="clip w-24 h-24 lg:w-44 lg:h-44 left-1/4 top-2/4 -translate-y-1/2 -translate-x-1/2 absolute bg-neutral-600 hover:bg-neutral-500 transition-all duration-300 ease-in-out flex items-center justify-center">
+        <a href="./plats/plats.html">
+          <span class="text-center text-gray-200 text-xl lg:text-2xl font-normal font-['Koulen']">
+            PLATS
+          </span>
+        </a>
+      </div>
+      <div
+        class="clip w-24 h-24 lg:w-44 lg:h-44 left-1/2 top-2/4 -translate-x-1/2 -translate-y-1/2 absolute bg-neutral-600 hover:bg-neutral-500 transition-all duration-300 ease-in-out flex items-center justify-center">
+        <a href="./nosaltres/nosaltres.html">
+          <span class="text-center text-gray-200 text-xl font-normal lg:text-2xl font-['Koulen']">
+            NOSALTRES
+          </span>
+        </a>
+      </div>
+      <div
+        class="clip w-24 h-24 lg:w-44 lg:h-44 left-3/4 top-2/4 -translate-y-1/2 -translate-x-1/2 absolute bg-neutral-600 hover:bg-neutral-500 transition-all duration-300 ease-in-out flex items-center justify-center">
+        <a href="./informacio/informacio.html">
+          <span class="text-center text-gray-200 text-xl font-normal lg:text-2xl font-['Koulen']">
+            INFO
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Fi de cards amb els diferents serveis del restaurant -->
+</body>
+
+</html>

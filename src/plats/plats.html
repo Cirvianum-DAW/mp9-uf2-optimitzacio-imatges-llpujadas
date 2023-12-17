@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Entre Pins</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="../../resources/img/logo-pins.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Nabvar de navegació de la pàgina -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="../index.html" class="flex items-center">
+                <img src="../../resources/img/logo-pins.svg" class="h-8 mr-3"
+                    alt="Logotip del restaurant amb tres pins" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Restaurant Entre
+                    Pins</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="../index.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inici</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Plats</a>
+                    </li>
+                    <li>
+                        <a href="../nosaltres/nosaltres.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Nosaltres</a>
+                    </li>
+                    <li>
+                        <a href="../informacio/informacio.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Informació</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fi de nabvar de navegació de la pàgina -->
+
+    <!-- Títol de la pàgina -->
+    <div class="relative">
+        <img class="w-full h-96 object-cover sm:h-auto" src="../../resources/img/bosc-titols.avif"
+            alt="Imatge del bosc de la portada amb petit format">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+            <h1 class="flex flex-nowrap text-center text-6xl sm:text-6xl font-[Koulen]">ELS NOSTRES PLATS</h1>
+            <hr>
+        </div>
+    </div>
+    <!-- Fi de títol de la pàgina -->
+
+    <!-- Container amb llistat de plats de la pàgina -->
+    <div class="flex justify-center flex-wrap items-center py-10 gap-10">
+        <!-- Card amb plat nº 1 -->
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <picture>
+                    <source class="rounded-t-lg" media="(max-width: 799px)"
+                        srcset="../../resources/img/resp_paella.jpeg"
+                        alt="Imatge d'un plat de paella muntanyenca servida al restaurant" />
+                    <source class="rounded-t-lg" media="(min-width: 800px)" srcset="../../resources/img/paella.jpg"
+                        alt="Imatge d'un plat de paella muntanyenca servida al restaurant" />
+                    <img class="rounded-t-lg" src="../../resources/img/paella.jpg"
+                        alt="Imatge d'un plat de paella muntanyenca servida al restaurant" />
+                </picture>
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PAELLA MUNTANYENCA
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">T'agradaria provar un dels nostres plats
+                    estrella en un entorn emblemàtic? Degusta la nostra paella muntanyenca en un entorn privilegiat!</p>
+                <a href="./detall/paella.html"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-neutral-600 rounded-lg hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Saber-ne més
+                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Fi de card amb plat nº 1 -->
+
+        <!-- Card amb plat nº 2 -->
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <picture>
+                    <source class="rounded-t-lg" media="(max-width: 799px)"
+                        srcset="../../resources/img/resp_peus_porc_brasa.jpg"
+                        alt="Imatge d'un plat de peus de porc servits al restaurant" />
+                    <source class="rounded-t-lg" media="(min-width: 800px)"
+                        srcset="../../resources/img/peus_porc_brasa.jpg"
+                        alt="Imatge d'un plat de peus de porc servits al restaurant" />
+                    <img class="rounded-t-lg" src="../../resources/img/peus_porc_brasa.jpg"
+                        alt="Imatge d'un plat de peus de porc servits al restaurant" />
+                </picture>
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PEUS DE PORC A LA
+                        BRASA</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">El nostre segon plat estrella està esperant
+                    degustar-lo. T'agradaria provar aquests preus de porc de Km0?
+                </p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-neutral-600 rounded-lg hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Veure el plat
+                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Fi de card amb plat nº 2 -->
+
+        <!-- Card amb plat nº 3 -->
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <picture>
+                    <source class="rounded-t-lg" media="(max-width: 799px)"
+                        srcset="../../resources/img/resp_pop_gallega.avif"
+                        alt="Imatge d'un plat de pop a la gallega servit al restaurant" />
+                    <source class="rounded-t-lg" media="(min-width: 800px)" srcset="../../resources/img/pop_gallega.jpg"
+                        alt="Imatge d'un plat de pop a la gallega servit al restaurant" />
+                    <img class="rounded-t-lg" src="../../resources/img/pop_gallega.jpg"
+                        alt="Imatge d'un plat de pop a la gallega servit al restaurant" />
+                </picture>
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">POP A LA GALLEGA
+                    </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">És lluny del mar, però també arribem a
+                    port. El nostre pop a la gallega és un dels més ben valorats del país! A que esperes per provar-lo?
+                </p>
+                <a href="#"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-neutral-600 rounded-lg hover:bg-neutral-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Arribar a port
+                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Fi de card amb plat nº 3 -->
+    </div>
+    <!-- Fi de container amb llistat de plats de la pàgina -->
+
+    <!-- Botó de consulta d'altres plats -->
+    <div class="flex flex-nowrap justify-center items-center footer mb-10">
+        <a target="_blank" href="../../resources/carta/carta_entrepins.pdf"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-500 hover:text-gray-800">
+            <h6>Consulta altres plats</h6>
+            <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9" />
+            </svg>
+        </a>
+    </div>
+    <!-- Fi de botó de consulta d'altres plats -->
+
+    <!-- Footer -->
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"><a href="/"
+                    class="hover:underline">Restaurant Entre Pins</a> © 2023. Tots els drets reservats.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <li>
+                    <a href="../index.html" class="hover:underline me-4 md:me-6">Inici</a>
+                </li>
+                <li>
+                    <a href="./plats.html" class="hover:underline me-4 md:me-6">Plats</a>
+                </li>
+                <li>
+                    <a href="../nosaltres/nosaltres.html" class="hover:underline me-4 md:me-6">Nosaltres</a>
+                </li>
+                <li>
+                    <a href="../informacio/informacio.html" class="hover:underline me-4 md:me-6">Informació</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Fi de Footer -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+
+</html>
